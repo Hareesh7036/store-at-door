@@ -1,0 +1,16 @@
+.header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    margin:0;
+    
+    font-weight: bold;
+    font-size: large;
+    width: 100%;
+    
+}
+.header-main{
+    position: sticky;
+    top: 0;
+}
