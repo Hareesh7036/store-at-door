@@ -16,8 +16,6 @@ export const Navbar = () => {
     }
     let timer;
     const debouncefn=()=>{
-        
-        console.log(timer);
         clearTimeout(timer);
         timer = setTimeout(()=>{
             return handleResize();  
@@ -27,7 +25,6 @@ export const Navbar = () => {
 
     const handleResize= ()=>{
         if(window.innerWidth>450){
-            console.log("changed");
             setMenu(true);
         }
     };
